@@ -1,0 +1,34 @@
+.landingpage {
+  background-color: #000;
+}
+.logo-social-container {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.logo-social-container > img {
+  width: 22%;
+  vertical-align: middle;
+}
+.social-list {
+  display: flex;
+  justify-content: right;
+}
+.social-list > li {
+  color: white;
+  margin: 1%;
+  list-style: none;
+  cursor: pointer;
+}
+.social-list > li:hover {
+  color: gold;
+}
+@media screen and (max-width: 800px) {
+  .logo-social-container > img {
+    width: 90%;
+  }
+}

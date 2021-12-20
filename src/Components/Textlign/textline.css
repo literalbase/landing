@@ -1,0 +1,13 @@
+.textline {
+  padding-left: 10%;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: whitesmoke;
+  font-weight: 200;
+  font-size: 1em;
+}
+@media screen and (max-width: 800px) {
+  .textline {
+    padding-right: 5%;
+  }
+}

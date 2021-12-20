@@ -1,0 +1,50 @@
+.video > video {
+  justify-content: center;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+}
+.video-text {
+  width: 25%;
+  height: 200px;
+  padding-left: 5%;
+}
+.video-text > h2 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.5;
+  color: white;
+}
+.video-text > button {
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: gold;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  cursor: pointer;
+  outline: none;
+}
+.video-text > button:hover {
+  background-color: whitesmoke;
+}
+.video-text > hr {
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+ 
+  .video-text {
+    width: 90%;
+  }
+  .video-text > button {
+    width: 60%;
+  }
+  .video-text > hr {
+    width: 55%;
+    margin-left: 0px;
+  }
+}
